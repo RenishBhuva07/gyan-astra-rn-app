@@ -34,18 +34,15 @@ export namespace BLOCK_DAEMON_NFT_APIS {
 
 //IrXIh8C2ItgpSIqvG1jD62q-ATQCZTMaKni3KOoEfKFgfIaR
 
-export const ADD_FUNDS_STRIPE = 'https://buy.stripe.com/bIY5krfKweVt8ZGdQR';
+export const ADD_FUNDS_STRIPE = '';
 
 export namespace STRIPE {
-  export const STRIPE_BASE_URL = 'https://api.stripe.com';
+  export const STRIPE_BASE_URL = '';
   export const LIST_ALL_PAYMENT = '/v1/payment_intents';
   export const LIST_ALL_CUSTOMER = '/v1/customers';
-  export const TEST_SECRET_KEY =
-    'sk_test_51LwrSPSAVqByLrShuSgGTzZW4s9fATSBwlGph1PzKhySvG9SYAYrj8HcLkhClzKrkM5SNKHEh1RxY2oWLJInsQej00ppGKdcGD';
-  export const LIVE_SECRET_KEY =
-    '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';
-  export const PUBLISHABLE_KEY =
-    'pk_test_51LwrSPSAVqByLrShxT1jdk9c8CPUbDW79MLodqzY11Gj7gRMVPRMRsx9omZcmRdd5SKaRHNjHFjREaXALaEyCQKf00eHMi72sg';
+  export const TEST_SECRET_KEY = '';
+  export const LIVE_SECRET_KEY = '';
+  export const PUBLISHABLE_KEY = '';
 }
 export namespace SCREEN_TITLE {
   export const Home_Title = 'Home';
